@@ -57,5 +57,5 @@ function BookList() {
   );
 }
 
-// method WHAT and WHERE we wanna render
+// method WHAT and WHERE we wanna render, brings the Booklist to APP root
 ReactDom.render(<BookList />, document.getElementById("root"));
